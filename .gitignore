@@ -1,0 +1,88 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Android build generated files
+###############################
+# Build output
+build/
+# Ignore APK files
+*.apk
+# Ignore AAB files
+*.aab
+# Ignore native library files
+**/libVkLayer_khronos_validation.so
+
+# Gradle files #
+################
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Intellij #
+############
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Keystore files #
+##################
+# Uncomment the following lines if you don't want to check your keystore files in.
+#*.jks
+#*.keystore
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# Windows thumbnail db
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+# VS Code #
+##########
+.vscode/
+
+# Flutter/Dart/Pub #
+####################
+**/.dart_tool/
+**/.flutter-plugins
+**/.packages
+**/.pub-cache/
+**/build/
+**/ios/Flutter/.last_build_id
+.pub-cache/
